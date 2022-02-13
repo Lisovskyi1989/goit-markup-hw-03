@@ -73,6 +73,23 @@ footer {
 
   color: var(--primary-text-color-theme-light);
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+}
 /* ========== END COMPONENTS ========== */
 
 /* ========= START HEADER ========= */
