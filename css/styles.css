@@ -107,6 +107,30 @@ img {
 /* ========== END COMPONENTS ========== */
 
 /* ========= START HEADER ========= */
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -118,6 +142,10 @@ img {
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: var(--accent-color);
+}
+
+.header-contacts:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-contacts {
@@ -133,6 +161,7 @@ img {
   color: var(--accent-color);
 }
 .logo-style {
+  margin-right: 93px;
   font-family: var(--secondary-font-family);
   font-style: 700;
   font-weight: bold;
