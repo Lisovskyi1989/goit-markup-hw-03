@@ -45,6 +45,7 @@ footer {
 .modal-btn {
   min-width: 200px;
   padding: 10px 32px;
+  margin: auto;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -69,9 +70,10 @@ footer {
 
 .main-title {
   margin-bottom: 30px;
-  padding-top: 200px;
-  padding-left: 252px;
-  padding-right: 252px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
