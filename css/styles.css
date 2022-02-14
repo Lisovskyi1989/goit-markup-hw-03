@@ -218,6 +218,11 @@ img {
   color: var(--secondary-text-color-theme-light);
 }
 
+.about-description {
+  display: flex;
+  align-items: center;
+}
+
 /* ========= END ABOUT ========= */
 
 /* ========= START TEAM ========= */
