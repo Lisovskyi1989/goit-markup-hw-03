@@ -291,6 +291,8 @@ border-radius: 0px 0px 4px 4px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 9px;
 
   color: var(--primary-text-color-theme-dark);
 }
@@ -305,6 +307,7 @@ border-radius: 0px 0px 4px 4px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-left: -15px;
 
   color: var(--footer-text-color);
 }
@@ -312,6 +315,16 @@ border-radius: 0px 0px 4px 4px;
 .footer-contacts:focus {
   color: var(--accent-color);
 }
+.footer-contacts-item:not(:last-child){
+  margin-bottom: 9px;
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: block;
+  
+}
+  
 
 /* ========= END FOOTER ========= */
 
