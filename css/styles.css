@@ -340,6 +340,18 @@ border-radius: 0px 0px 4px 4px;
   background: var(--secondary-background-color);
   border-radius: 4px;
   color: var(--primary-text-color-theme-light);
+  
+
+}
+.portfolio-btn-list{
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+  justify-content:center;
+
+}
+.portfolio-btn-list-item:not(last-child){
+  margin-right: 8px;
 }
 
 .portfolio-btn:hover,
