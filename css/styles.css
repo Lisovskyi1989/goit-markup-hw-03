@@ -196,6 +196,8 @@ img {
 /* ========= START HERO ========= */
 .hero {
   background-color: var(--hero-footer-background-color);
+  padding-top: 200px;
+  padding-bottom: 210px;
 }
 
 /* ========= END HERO ========= */
@@ -209,6 +211,7 @@ img {
   text-transform: uppercase;
   width: 270px;
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .about-text {
