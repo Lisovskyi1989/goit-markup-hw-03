@@ -234,6 +234,14 @@ img {
   padding-bottom: 94px;
 }
 
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-img-item {
+}
+
 /* ========= END ABOUT ========= */
 
 /* ========= START TEAM ========= */
@@ -257,6 +265,10 @@ img {
 }
 .team-background {
   background-color: var(--secondary-background-color);
+}
+.team-list {
+  display: flex;
+  align-items: center;
 }
 
 /* ========= END TEAM ========= */
