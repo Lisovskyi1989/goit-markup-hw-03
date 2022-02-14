@@ -228,6 +228,7 @@ img {
 .about-description {
   display: flex;
   align-items: center;
+  padding-bottom: 94px;
 }
 
 /* ========= END ABOUT ========= */
