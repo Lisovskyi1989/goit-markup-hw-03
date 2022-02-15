@@ -381,15 +381,15 @@ border-radius: 0px 0px 4px 4px;
   flex-wrap: wrap;
  align-items:center;
  margin-left: -15px;
-justify-content: space-between;
+ justify-content: space-between;
   
  
 }
 
-.portfolio-list-item{
-  background: #FFFFFF;
+.portfolio-list-item {
+background: #FFFFFF;
 border: 1px solid #EEEEEE;
-
+margin-bottom: 30px;
 
  
 }
