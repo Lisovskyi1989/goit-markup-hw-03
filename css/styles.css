@@ -321,8 +321,10 @@ border-radius: 0px 0px 4px 4px;
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
-  display: block;
+  display: flex;
   flex-direction:column;
+}
+.footer{
 }
   
 
