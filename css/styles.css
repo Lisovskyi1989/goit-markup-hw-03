@@ -375,6 +375,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .portfolio-list-item {
