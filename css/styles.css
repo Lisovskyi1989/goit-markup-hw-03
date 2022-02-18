@@ -231,11 +231,13 @@ img {
 .about-description {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .about-img {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 .about-img-item:not(:last-child) {
   margin-right: 30px;
@@ -268,6 +270,8 @@ img {
 }
 .team-list {
   display: flex;
+  align-items: center;
+  padding: 0;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -384,17 +388,22 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
+  padding: 0;
 }
 
 .portfolio-list-item {
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  margin: 15px;
 }
-.portfolio-list-item:not(:last-child) {
-  margin: ;
-}
+/*.portfolio-list-item:not(:last-child) {
+  margin-right: 30px;
+}*/
 
 .portfolio-text {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 /* ========= END PORTFOLIO ========= */
