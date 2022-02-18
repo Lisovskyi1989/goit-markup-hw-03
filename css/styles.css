@@ -20,6 +20,8 @@ body {
 }
 footer {
   background-color: var(--hero-footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .list {
@@ -177,7 +179,7 @@ img {
 .logo-style {
   margin-right: 93px;
   font-family: var(--secondary-font-family);
-  font-style: 700;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -293,7 +295,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 20px;
-  margin-bottom: 9px;
 
   color: var(--primary-text-color-theme-dark);
 }
@@ -308,6 +309,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 
   color: var(--footer-text-color);
 }
@@ -315,15 +317,20 @@ img {
 .footer-contacts:focus {
   color: var(--accent-color);
 }
+.footer-contacts-list {
+  padding: 0;
+}
 .footer-contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
 }
 
 /* ========= END FOOTER ========= */
@@ -381,9 +388,9 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-/*.portfolio-list-item:not(:last-child) {
-  margin-right: 30px;
-}*/
+.portfolio-list-item:not(:last-child) {
+  margin: ;
+}
 
 .portfolio-text {
   padding: 20px 24px;
