@@ -43,6 +43,12 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.section-about {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
 /* ========= START COMPONENTS ========= */
 .modal-btn {
   min-width: 200px;
